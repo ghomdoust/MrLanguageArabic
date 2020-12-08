@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a_about_us"
+    android:id="@+id/navigation_drawer"
+    android:orientation="vertical"
+    android:background="@color/colorMainBackground"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher_aghayezaban_squer"
+            android:scaleType="fitXY"
+            >
+
+        </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:fontFamily="@font/sans_num_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="آقای زبان"
+                android:textSize="30sp"
+                android:textStyle="bold" style=""
+                android:textColor="@color/black"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/sans_num_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="عربی با لهجه عراقی"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:fontFamily="@font/sans_num_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="طراح : محمود قوم دوست "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                >
+            </TextView>
+
+
+            <TextView
+                android:fontFamily="@font/sans"
+                android:id="@+id/contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تماس با ما : "
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:paddingRight="30sp"
+                android:layout_marginBottom="10dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/sans_num_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0513 - 2734630"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/sans_num_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09158691318"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+
+                >
+
+            </TextView>
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.aghayezaban.ir"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/sans_num_bold"
+                >
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/sans_num_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نسخه  1.0.0"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+</LinearLayout>

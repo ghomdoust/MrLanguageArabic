@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b_s1p12"
+    android:orientation="vertical"
+    android:background="@color/colorMainBackground"
+    android:gravity="center"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="50dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_grammar"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/shape"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s1p12_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="مکالمه"
+                    android:layout_gravity="center_horizontal|right"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_grammar"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s1p12_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="واژگان"
+                    android:layout_gravity="center_horizontal|right"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_grammar"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s1p12_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="اصطلاحات و عبارات کاربردی"
+                    android:layout_gravity="center_horizontal|right"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_grammar"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s1p12_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="دستور زبان و نکات"
+                    android:layout_gravity="center_horizontal|right"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

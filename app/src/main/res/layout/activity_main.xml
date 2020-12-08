@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right">
+
+        <include layout="@layout/a_navigation_drawer">
+
+        </include>
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="#005ECB"
+        app:theme="@style/ToolbarTextColorBlack"
+
+        >
+
+        <TextView
+            android:fontFamily="@font/sans_num_bold"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:text="آقای زبان ( عربی با لهجه عراقی ) "
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/white"
+
+            >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/image_menu"
+            android:layout_width="30sp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_action_menu"
+            android:layout_marginRight="20dp"
+            >
+
+        </ImageView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:fontFamily="@font/sans_num_bold"
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#448AFF"
+        app:tabIndicatorHeight="3dp"
+        app:tabIndicatorColor="#950218"
+        android:scrollbarSize="20sp"
+        app:tabTextAppearance="@style/MineCustomTabText"
+        >
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:fontFamily="@font/sans_num_bold"
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#83b9ff"
+        />
+
+    </LinearLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+

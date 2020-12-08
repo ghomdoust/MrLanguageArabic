@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorMainBackground"
+    android:gravity="center"
+    tools:context=".fragment_multimedia_music">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="50dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک  1 : سخت است بروی"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="موزیک 2 : تو آن عشق بزرگ"
+                    android:textColor="#000000"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 3 : در قلب من جایی هست"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 4 : خانه کوچکم در کانادا"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 5 : به چه می مانیم"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 6 : ای گندمگون"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 7 : باران"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 8 : در آغوشم بگیر"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 9 : ای کاش نگذشته بود"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 10 : محبوبانمان کنارمان"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 11 : برای من پاسخی بفرست"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 12 : تمام شعرها"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 13 : من در عشق، باشم یا نباشم"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 14 : طاطی طاطی"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="12sp"
+                    android:id="@+id/tv_s2p3_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 15 : نامه ای به دبیر شورای امنیت سازمان ملل"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 16 : خوابیدم و خواب دیدم"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 17 : دیما...دیما"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 18 : چرا عوض شدی"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 19 : و آنگاه که بر من آشکار شد"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 20 : زندگی زیباست"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 21 : دوستت دارم"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 22 : روز سه شنبه"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 23 : من فرق دارم"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 24 : عشق ناممکن"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_25"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 25 : احساس متفاوت من"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_26"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 26 : دایره ها"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_27"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 27 : اغنية زهرا"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 28 : آرزوی دیدارت را دارم"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_29"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 29 : دوستت میدارم"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 30 : به چشمانم نگاه کن"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 31 : جایی"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 32 : ای نازک اندام"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 33 : خدا پیروز است"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_34"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 34 : فالگیر"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_35"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 35 : دچار عشق"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_36"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 36 : یابای"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_37"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 37 : لباس مهمانی(عروسی)"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_38"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 38 : چه کسی به تو گفته است "
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_39"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 39 : عشق هنر است"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_40"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 40 : تو را به خدا"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_41"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 41 : من عاشق دریا هستم"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_42"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 42 : ساده دوستم بدار "
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="14sp"
+                    android:id="@+id/tv_s2p3_43"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 43 : کسی که ما رو فروخت و ولمون کرد"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_44"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 44 : باعث شدی دنیا"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="16sp"
+                    android:id="@+id/tv_s2p3_45"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 45 : چیزی توجهم را جلب نمی کند"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_46"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 46 : ساعت هفت و هفت دقیقه"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_music"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_s2p3_47"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="موزیک 47 : سه تپش"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

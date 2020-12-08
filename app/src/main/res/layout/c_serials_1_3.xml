@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorMainBackground"
+    android:gravity="center"
+    tools:context=".c_serials_1_3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="50dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="قسمت 2"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 3"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 4"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 5"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 6"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 7"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 8"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 9"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 10"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 11"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 12"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 13"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 14"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 15"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 16"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 17"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 18"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 19"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/background_zaragh"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:fontFamily="@font/sans_num_bold"
+                    android:id="@+id/tv_s2p1_1_3_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="قسمت 20"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10sp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorMainBackground"
+    android:gravity="center"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/s1p0menu"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/shape"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="center_horizontal"
+                    android:text="مقدمه و پیشگفتار"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s1p1menu"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/shape"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس اول : الفباء و حروف صدا دار عربی"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس دوم : خوشآمدگویی ها و تعارفات"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس سوم : جهت ها و آدرسها"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس چهارم : در فرودگاه بغداد ( 1 ) "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس پنجم : در فرودگاه بغداد ( 2 ) "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس ششم : تاکسی گرفتن "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس هفتم : در هتل الرشید"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس هشتم : آشنایی ، معارفه"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس نهم : زبان عربی"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس دهم : ساعت"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس یازدهم : بازدید از موزه عراق"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p12"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس دوازدهم : سفر به بابل"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p13"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس سیزدهم : در بانک"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p14"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس چهاردهم : در اداره پست"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p15"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس پانزدهم : در رستوران"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p16"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس شانزدهم : خانواده و نزدیکان"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس هفدهم : مراقبت پزشکی"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p18"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس هجدهم : رسانه ، رادیو ، تلویزیون و روزنامه"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p19"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس نوزدهم : مکالمات تلفنی"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p20"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="درس بیستم : داستانهای فرهنگی و عامیانه"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
