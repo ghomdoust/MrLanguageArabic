@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR"/>
+    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".b_s1p21"></activity>
         <activity android:name=".dictionary" />
         <activity android:name=".translator" />
         <activity android:name=".a_navigation_drawer" />
@@ -486,12 +486,9 @@
         <activity android:name=".b_s1p3" />
         <activity android:name=".b_s1p2" />
         <activity android:name=".b_s1p1" />
-
-
         <activity android:name=".a_user_manual" />
         <activity android:name=".a_contact_us" />
         <activity android:name=".a_about_us" />
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -501,9 +498,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainActivity" />
-
     </application>
 
 </manifest>

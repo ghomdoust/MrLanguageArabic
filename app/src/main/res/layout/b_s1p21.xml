@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b_s1p21">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            >
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="380dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/book2">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|right"
+                android:layout_marginTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/sans_num_bold"
+                android:gravity="right"
+                android:text="کلیه مطالب مورد استفاده در این بخش برگرفته از کتاب عربی عراقی مدرن نوشته یاسین محمود الخالصی چاپ انتشارات دانشگاه جورج تون در سال 2006 میباشد  که به زبان فارسی ترجمه گردیده است ."
+                android:textColor="#000000"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sans_num_bold"
+                android:gravity="left"
+                android:text="Al-Khalesi, Yasin M.
+Modern Iraqi Arabic with MP3 files / 2d edition / Yasin M. Alkalesi
+ISBN 1-58901-130-9
+Georgetown University Press, Washington, D.C.
+© 2006 by Georgetown University Press. All rights reserved"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

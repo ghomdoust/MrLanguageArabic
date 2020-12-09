@@ -37,6 +37,7 @@ public class GrammerFragment extends Fragment {
     private TextView tv_s1p18 ;
     private TextView tv_s1p19 ;
     private TextView tv_s1p20 ;
+    private TextView tv_s1p21 ;
     
 
 
@@ -84,6 +85,7 @@ public class GrammerFragment extends Fragment {
         tv_s1p18 = view.findViewById(R.id.tv_s1p18);
         tv_s1p19 = view.findViewById(R.id.tv_s1p19);
         tv_s1p20 = view.findViewById(R.id.tv_s1p20);
+        tv_s1p21 = view.findViewById(R.id.tv_s1p21);
 
 
         tv_s1p0.setOnClickListener(new View.OnClickListener() {
@@ -293,6 +295,16 @@ public class GrammerFragment extends Fragment {
 
                 Intent s1p20 = new Intent(getActivity(),b_s1p20.class);
                 startActivity(s1p20);
+
+            }
+        });
+
+        tv_s1p21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent s1p21 = new Intent(getActivity(),b_s1p21.class);
+                startActivity(s1p21);
 
             }
         });

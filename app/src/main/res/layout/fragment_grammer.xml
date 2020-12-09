@@ -802,6 +802,43 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background_grammar">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_s1p21"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal|right"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:gravity="right"
+                    android:text="منابع"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:paddingRight="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
 
         </LinearLayout>
 
